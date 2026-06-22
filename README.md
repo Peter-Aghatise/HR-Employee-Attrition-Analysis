@@ -30,9 +30,8 @@ and provide actionable retention recommendations using Python, Pandas, and Matpl
 The company should focus retention strategies on younger employees through better career 
 growth opportunities, mentorship programs, and competitive salary reviews for junior staff.
 
-## Files
-- hr_cleaning.py — Full data inspection and cleaning pipeline
-- hr_visualization.py — Attrition dashboard and charts
-- HR-Employee-Attrition.csv — Raw dataset
-- HR-Employee-Attrition-Cleaned-Data.csv — Cleaned dataset
-- Netflix_Business_Dashboard.png — Visual dashboard
+## Files Navigation
+* 📁 **data/** — Holds the raw and cleaned employee workforce datasets (`.csv`)
+* 📁 **output/** — Holds the final high-resolution corporate attrition dashboards and distribution charts (`.png`)
+* 📄 **hr_cleaning.py** — Master data engineering script handling workforce structural profiling, missing value validation, and metrics calculation
+
